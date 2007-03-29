@@ -8,7 +8,7 @@ Summary:	WeakRef -- an API to the Perl weak references
 #Summary(pl.UTF-8):	
 Name:		perl-WeakRef
 Version:	0.01
-Release:	0.1
+Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
