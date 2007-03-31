@@ -4,15 +4,15 @@
 #
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	WeakRef
-Summary:	WeakRef -- an API to the Perl weak references
-#Summary(pl.UTF-8):	
+Summary:	WeakRef - an API to the Perl weak references
+Summary(pl.UTF-8):	WeakRef - API do perlowych słabych referencji
 Name:		perl-WeakRef
 Version:	0.01
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-authors/id/L/LU/LUKKA/WeakRef-0.01.tar.gz
+Source0:	http://www.cpan.org/modules/by-authors/id/L/LU/LUKKA/%{pdir}-%{version}.tar.gz
 # Source0-md5:	3162df7a6eda0dfb44676dd9ebfa3c4c
 URL:		http://search.cpan.org/dist/WeakRef/
 BuildRequires:	perl-devel >= 1:5.8.0
@@ -20,10 +20,10 @@ BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-WeakRef -- an API to the Perl weak references.
+WeakRef - an API to the Perl weak references.
 
-# %description -l pl.UTF-8
-# TODO
+%description -l pl.UTF-8
+WeakRef - API do perlowych słabych referencji.
 
 %prep
 %setup -q -n %{pdir}-%{version}
