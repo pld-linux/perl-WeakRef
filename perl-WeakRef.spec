@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_without	tests		# do not perform "make test"
 #
-%include	/usr/lib/rpm/macros.perl
 %define	pdir	WeakRef
 Summary:	WeakRef - an API to the Perl weak references
 Summary(pl.UTF-8):	WeakRef - API do perlowych słabych referencji
